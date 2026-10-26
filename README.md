@@ -2,4 +2,6 @@
 
 Портфолио, демонстрирующее навыки фронтенд-разработки. Многостраничный сайт с адаптивным дизайном, анимациями и доступной разметкой.
 
+**Деплой:** https://kater-g.github.io/frontend-developer-portfolio/
+
 Проект основан на бесплатном макете из Figma: **[Portfolio Full Website Design](https://www.figma.com/community/file/1310698710019433850/portfolio-full-website-design)**
