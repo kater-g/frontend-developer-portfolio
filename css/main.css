@@ -1,0 +1,20 @@
+@import "base/reset.css";
+@import "base/variables.css";
+@import "base/typography.css";
+
+@import "utils/animations.css";
+@import "utils/helpers.css";
+
+@import "components/header.css";
+@import "components/footer.css";
+@import "components/menu.css";
+@import "components/logo.css";
+@import "components/button.css";
+@import "components/project-card.css";
+@import "components/section-header.css";
+
+@import "sections/hero.css";
+@import "sections/about.css";
+@import "sections/skills.css";
+@import "sections/projects.css";
+@import "sections/contact.css";

@@ -1,0 +1,121 @@
+.hero {
+  min-height: 100vh;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero__container {
+  max-width: var(--conntainer-max);
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+.hero__title {
+  font-size: clamp(32px, 8vw, 96px);
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-title);
+}
+
+.hero__title-line {
+  display: block;
+  overflow: hidden;
+}
+
+.hero__title-line span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.hero__title-subtitle {
+  display: block;
+  font-size: clamp(14px, 2vw, 18px);
+  letter-spacing: 0.2em;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.hero__title-subtitle span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.hero--page .hero__title {
+  font-size: clamp(28px, 6vw, 72px);
+}
+
+.hero__title-line span,
+.hero__title-subtitle span {
+  animation: slideUpLetter 0.8s ease forwards;
+}
+
+.hero__title-line span:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.hero__title-line span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+.hero__title-line span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.hero__title-line span:nth-child(4) {
+  animation-delay: 0.25s;
+}
+.hero__title-line span:nth-child(5) {
+  animation-delay: 0.3s;
+}
+.hero__title-line span:nth-child(6) {
+  animation-delay: 0.35s;
+}
+.hero__title-line span:nth-child(7) {
+  animation-delay: 0.4s;
+}
+.hero__title-line span:nth-child(8) {
+  animation-delay: 0.45s;
+}
+.hero__title-line span:nth-child(9) {
+  animation-delay: 0.5s;
+}
+
+.hero__title-subtitle span:nth-child(1) {
+  animation-delay: 0.8s;
+}
+.hero__title-subtitle span:nth-child(2) {
+  animation-delay: 0.85s;
+}
+.hero__title-subtitle span:nth-child(3) {
+  animation-delay: 0.9s;
+}
+.hero__title-subtitle span:nth-child(4) {
+  animation-delay: 0.95s;
+}
+.hero__title-subtitle span:nth-child(5) {
+  animation-delay: 1s;
+}
+.hero__title-subtitle span:nth-child(6) {
+  animation-delay: 1.05s;
+}
+.hero__title-subtitle span:nth-child(7) {
+  animation-delay: 1.1s;
+}
+.hero__title-subtitle span:nth-child(8) {
+  animation-delay: 1.15s;
+}
+.hero__title-subtitle span:nth-child(9) {
+  animation-delay: 1.2s;
+}
+.hero__title-subtitle span:nth-child(10) {
+  animation-delay: 1.25s;
+}
+.hero__title-subtitle span:nth-child(11) {
+  animation-delay: 1.3s;
+}
+.hero__title-subtitle span:nth-child(12) {
+  animation-delay: 1.35s;
+}

@@ -1,0 +1,28 @@
+.logo {
+  display: inline-block;
+  transition: transform var(--transition-fast);
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logo__text {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  border: 2px solid var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.logo--footer .logo__text {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border-color: var(--color-white);
+}

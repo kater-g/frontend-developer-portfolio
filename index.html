@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Портфолио frontend-разработчика: проекты, навыки и контакты. Создаю современные и удобные интерфейсы.">
+    <link rel="icon" type="image/png" href="./assets/favicon/favicon.png">
+    <title>ИМЯ ФАМИЛИЯ — Frontend Developer</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="page__body">
+    <header class="header">
+        <div class="header__container">
+            <a href="index.html" class="logo" aria-label="На главную">
+                <span class="logo__text">ИФ</span>
+            </a>
+            <button class="menu__toggle" type="button" aria-label="Открыть меню навигации" aria-expanded="false"
+                aria-controls="main-menu">
+                <span class="menu__toggle-line" aria-hidden="true"></span>
+                <span class="menu__toggle-line" aria-hidden="true"></span>
+                <span class="menu__toggle-line" aria-hidden="true"></span>
+            </button>
+        </div>
+    </header>
+
+    <nav class="menu" id="main-menu" aria-label="Главное меню">
+        <div class="menu__container">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a href="index.html" class="menu__link" aria-current="page">Главная</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./pages/about.html" class="menu__link">Обо мне</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./pages/projects.html" class="menu__link">Проекты</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./pages/contact.html" class="menu__link">Контакты</a>
+                </li>
+            </ul>
+            <div class="menu__contact">
+                <a href="mailto:hello@example.com" class="menu__contact-link">hello@example.com</a>
+                <a href="tel:+79991234567" class="menu__contact-link">+7 (999) 123-45-67</a>
+                <div class="menu__social">
+                    <a href="#" class="menu__social-link" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="#" class="menu__social-link" target="_blank" rel="noopener noreferrer">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero__container">
+                <h1 class="hero__title" id="hero-title">
+                    <span class="hero__title-line">Имя Фамилия</span>
+                    <span class="hero__title-subtitle">Frontend-разработчик</span>
+                </h1>
+            </div>
+        </section>
+
+        <section class="about" aria-labelledby="about-title">
+            <div class="about__container">
+                <header class="section-header section-header--animated">
+                    <h2 class="section-header__title" id="about-title">О себе</h2>
+                    <p class="section-header__description">
+                        Несколько слов о том, кто я и чем занимаюсь.
+                    </p>
+                </header>
+                <div class="about__content">
+                    <div class="about__visual">
+                        <div class="about__avatar" aria-hidden="true">
+                            <span class="about__avatar-text">ИФ</span>
+                            <span class="about__avatar-caption">frontend-разработчик</span>
+                        </div>
+                    </div>
+
+                    <div class="about__info">
+                        <p class="about__text">
+                            Создаю современные и удобные веб-интерфейсы, которые решают
+                            задачи бизнеса и радуют пользователей.
+                        </p>
+                        <p class="about__text">
+                            В работе ориентируюсь на чистый код, адаптивную вёрстку
+                            и продуманный пользовательский опыт. Люблю превращать
+                            сложные идеи в простые и понятные решения.
+                        </p>
+                        <a href="./pages/about.html" class="button button--secondary about__link">
+                            → Подробнее обо мне
+                        </a>
+                    </div>
+                </div>
+
+                <dl class="about__stats">
+                    <div class="about__stat">
+                        <dt class="about__stat-value" data-count="3">0</dt>
+                        <dd class="about__stat-label">года опыта</dd>
+                    </div>
+                    <div class="about__stat">
+                        <dt class="about__stat-value" data-count="25">0</dt>
+                        <dd class="about__stat-label">проектов</dd>
+                    </div>
+                    <div class="about__stat">
+                        <dt class="about__stat-value" data-count="15">0</dt>
+                        <dd class="about__stat-label">клиентов</dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+
+        <section class="skills" aria-labelledby="skills-title">
+            <div class="skills__container">
+                <header class="section-header section-header--animated">
+                    <h2 class="section-header__title" id="skills-title">Мои навыки</h2>
+                    <p class="section-header__description">
+                        Технологии и инструменты, с которыми я работаю ежедневно.
+                        Постоянно изучаю новое и применяю лучшее в проектах.
+                    </p>
+                </header>
+                <ul class="skills__list">
+                    <li class="skills__item skills__item--html">
+                        <div class="skills__item-icon">
+                            <svg viewBox="0 0 24 24" class="skills__item-svg" aria-hidden="true" focusable="false">
+                                <path
+                                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" />
+                            </svg>
+                        </div>
+                        <span class="skills__item-text">HTML</span>
+                    </li>
+
+                    <li class="skills__item skills__item--css">
+                        <div class="skills__item-icon">
+                            <svg viewBox="0 0 24 24" class="skills__item-svg" aria-hidden="true" focusable="false">
+                                <path
+                                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z" />
+                            </svg>
+                        </div>
+                        <span class="skills__item-text">CSS</span>
+                    </li>
+
+                    <li class="skills__item skills__item--js">
+                        <div class="skills__item-icon">
+                            <svg viewBox="0 0 24 24" class="skills__item-svg" aria-hidden="true" focusable="false">
+                                <path
+                                    d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
+                            </svg>
+                        </div>
+                        <span class="skills__item-text">JavaScript</span>
+                    </li>
+
+                    <li class="skills__item skills__item--react">
+                        <div class="skills__item-icon">
+                            <svg viewBox="0 0 24 24" class="skills__item-svg" aria-hidden="true" focusable="false">
+                                <path
+                                    d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.36-.034-.47 0-.92.014-1.36.034.44-.572.895-1.096 1.36-1.564zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.36.034.47 0 .92-.014 1.36-.034-.44.572-.895 1.095-1.36 1.56-.465-.467-.92-.992-1.36-1.56z" />
+                            </svg>
+                        </div>
+                        <span class="skills__item-text">React</span>
+                    </li>
+
+                    <li class="skills__item skills__item--ts">
+                        <div class="skills__item-icon">
+                            <svg viewBox="0 0 400 400" class="skills__item-svg" aria-hidden="true" focusable="false"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 200V0h400v400H0" />
+                                <path fill="#ffffff"
+                                    d="M87.7 200.7V217h52v148h36.9V217h52v-16c0-9 0-16.3-.4-16.5 0-.3-31.7-.4-70.2-.4l-70 .3v16.4l-.3-.1zM321.4 184c10.2 2.4 18 7 25 14.3 3.7 4 9.2 11 9.6 12.8 0 .6-17.3 12.3-27.8 18.8-.4.3-2-1.4-3.6-4-5.2-7.4-10.5-10.6-18.8-11.2-12-.8-20 5.5-20 16 0 3.2.6 5 1.8 7.6 2.7 5.5 7.7 8.8 23.2 15.6 28.6 12.3 41 20.4 48.5 32 8.5 13 10.4 33.4 4.7 48.7-6.4 16.7-22 28-44.3 31.7-7 1.2-23 1-30.5-.3-16-3-31.3-11-40.7-21.3-3.7-4-10.8-14.7-10.4-15.4l3.8-2.4 15-8.7 11.3-6.6 2.6 3.5c3.3 5.2 10.7 12.2 15 14.6 13 6.7 30.4 5.8 39-2 3.7-3.4 5.3-7 5.3-12 0-4.6-.7-6.7-3-10.2-3.2-4.4-9.6-8-27.6-16-20.7-8.8-29.5-14.4-37.7-23-4.7-5.2-9-13.3-11-20-1.5-5.8-2-20-.6-25.7 4.3-20 19.4-34 41-38 7-1.4 23.5-.8 30.4 1l-.2.2z" />
+                            </svg>
+                        </div>
+                        <span class="skills__item-text">TypeScript</span>
+                    </li>
+
+                    <li class="skills__item skills__item--figma">
+                        <div class="skills__item-icon">
+                            <svg viewBox="0 0 24 24" class="skills__item-svg" aria-hidden="true" focusable="false">
+                                <path
+                                    d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.019 3.019 3.019h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117v-6.038H8.148zm7.704 0c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49-4.49-2.014-4.49-4.49 2.014-4.49 4.49-4.49zm0 7.509c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019-3.019 1.355-3.019 3.019 1.354 3.019 3.019 3.019zM8.148 24c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49 4.49 2.014 4.49 4.49-2.014 4.49-4.49 4.49zm0-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019 3.019-1.355 3.019-3.019-1.354-3.019-3.019-3.019z" />
+                            </svg>
+                        </div>
+                        <span class="skills__item-text">Figma</span>
+                    </li>
+
+                    <li class="skills__item skills__item--git">
+                        <div class="skills__item-icon">
+                            <svg viewBox="0 0 24 24" class="skills__item-svg" aria-hidden="true" focusable="false">
+                                <path
+                                    d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.6-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187" />
+                            </svg>
+                        </div>
+                        <span class="skills__item-text">Git</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="projects-preview" aria-labelledby="projects-preview-title">
+            <div class="projects-preview__container">
+                <header class="section-header section-header--animated">
+                    <h2 class="section-header__title" id="projects-preview-title">Последние проекты</h2>
+                    <p class="section-header__description">
+                        Подборка работ, в которых я решала реальные задачи — от адаптивных лендингов
+                        до SPA-приложений с полноценной архитектурой.
+                    </p>
+                </header>
+
+                <div class="projects-preview__grid">
+                    <article class="project-card">
+                        <a href="./pages/projects.html" class="project-card__media">
+                            <img src="assets/cards-images/test.jpg"
+                                alt="Скриншот лендинга кофейни с тёмной темой и крупной типографикой"
+                                class="project-card__image" loading="lazy">
+                            <div class="project-card__overlay" aria-hidden="true">
+                                <div class="project-card__overlay-content">
+                                    <p>Лендинг с анимированным меню, формой бронирования столиков
+                                        и интеграцией с Instagram. Адаптивная вёрстка pixel-perfect.</p>
+                                    <span class="button button--secondary">Подробнее →</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="project-card__body">
+                            <h3 class="project-card__title">Лендинг для кофейни</h3>
+                            <ul class="project-card__stack">
+                                <li class="project-card__tag">HTML</li>
+                                <li class="project-card__tag">SCSS</li>
+                                <li class="project-card__tag">JavaScript</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <a href="./pages/projects.html" class="project-card__media">
+                            <img src="assets/cards-images/test.jpg"
+                                alt="Интерфейс интернет-магазина электроники с корзиной и фильтрами"
+                                class="project-card__image" loading="lazy">
+                            <div class="project-card__overlay" aria-hidden="true">
+                                <div class="project-card__overlay-content">
+                                    <p>SPA с каталогом, фильтрацией по характеристикам, корзиной
+                                        и авторизацией. Оптимизирован для производительности.</p>
+                                    <span class="button button--secondary">Подробнее →</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="project-card__body">
+                            <h3 class="project-card__title">Интернет-магазин электроники</h3>
+                            <ul class="project-card__stack">
+                                <li class="project-card__tag">React</li>
+                                <li class="project-card__tag">TypeScript</li>
+                                <li class="project-card__tag">Redux Toolkit</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <a href="./pages/projects.html" class="project-card__media">
+                            <img src="assets/cards-images/test.jpg"
+                                alt="Мобильное приложение для фитнеса с трекером тренировок" class="project-card__image"
+                                loading="lazy">
+                            <div class="project-card__overlay" aria-hidden="true">
+                                <div class="project-card__overlay-content">
+                                    <p>Кроссплатформенное приложение с библиотекой упражнений,
+                                        планировщиком тренировок и прогресс-трекером.</p>
+                                    <span class="button button--secondary">Подробнее →</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="project-card__body">
+                            <h3 class="project-card__title">Фитнес-приложение</h3>
+                            <ul class="project-card__stack">
+                                <li class="project-card__tag">Figma</li>
+                                <li class="project-card__tag">React Native</li>
+                                <li class="project-card__tag">TypeScript</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="projects-preview__actions">
+                    <a href="./pages/projects.html" class="button button--secondary">→ Все проекты</a>
+                    <a href="./pages/contact.html" class="button button--secondary">→ Связаться со мной</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <nav class="footer__nav" aria-label="Меню в подвале">
+                <a href="./pages/projects.html" class="footer__link">Проекты</a>
+                <a href="./pages/about.html" class="footer__link">О себе</a>
+                <a href="./pages/contact.html" class="footer__link">Контакты</a>
+            </nav>
+            <div class="footer__contact">
+                <a href="mailto:hello@example.com" class="footer__contact-link">hello@example.com</a>
+                <a href="tel:+79991234567" class="footer__contact-link">+7 (999) 123-45-67</a>
+            </div>
+            <a href="index.html" class="logo logo--footer" aria-label="Вернуться на главную">
+                <span class="logo__text">ИФ</span>
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
